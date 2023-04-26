@@ -1,6 +1,6 @@
 .Image_links>div>img{
-    width: 35em; 
-    height: 25em;
+    width: 20em; 
+    height: 20em;
     object-fit:cover;
     object-position: top 
     ;}
@@ -11,4 +11,5 @@
     }
     .Image_links>div>p{
         background-image: url(/Images/background.jpg);
+        font-size: 2em;
     }

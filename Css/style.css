@@ -3,6 +3,9 @@
     src: url(/Fonts/Benne-Regular.ttf);
 }
 
+ul{
+    list-style-type: none;
+}
 header{
     background-image: url(/Images/background.jpg); 
     background-size: cover;
@@ -11,20 +14,18 @@ header{
     max-height: 10%;
     background-position-y: center;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr auto;
+    margin-bottom: 2em;
 }
 header>nav>ul{
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 4fr 4fr 5fr 3fr;
     font-size: 2em;
-    margin-top: 20%;
+    text-align: left;
 }
 .LOGO {
-    font-family: "Benne"; 
-    font-size: 3em; 
-    display: grid; grid-template-rows: auto auto auto;
-    line-height: 0.1em;
-    color: rgb(67, 22, 89);
+ height: 50%; 
+ margin-top: 10%;
 }
 footer{
     background-image: url(/Images/footer.jpg);
