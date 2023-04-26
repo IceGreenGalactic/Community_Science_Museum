@@ -1,0 +1,14 @@
+.Image_links>div>img{
+    width: 35em; 
+    height: 25em;
+    object-fit:cover;
+    object-position: top 
+    ;}
+
+    .Image_links{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .Image_links>div>p{
+        background-image: url(/Images/background.jpg);
+    }
