@@ -3,11 +3,12 @@
     height: 20em;
     object-fit:cover;
     object-position: top 
-    ;}
+    ; margin-left: 2em;}
 
     .Image_links{
         display: grid;
         grid-template-columns: auto auto auto auto;
+       
     }
     .Image_links>div>a>p{
         background-image: url(/Images/background.jpg);

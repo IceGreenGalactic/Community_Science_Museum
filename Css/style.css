@@ -40,6 +40,16 @@ header>nav>ul{
 .LOGO {
  max-height: 10em; 
 }
+footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+footer>div{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    line-height: 0.2em;
+}
+
 #menu_checkbox,.hide_list{
   background-color: yellow; 
 }
