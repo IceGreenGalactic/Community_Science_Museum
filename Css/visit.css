@@ -1,0 +1,28 @@
+.visit_main>h1{
+    text-align: center;
+    margin-top: -2em;
+}
+.information_blocks {
+display: grid;
+grid-template-columns: auto auto;
+}
+.information_blocks>div{
+
+    border: solid 1em;
+     border-image: url(/Images/background.jpg) 20 round;
+    line-height: 40px;
+    margin-right: 2em;
+   width: 80%;
+   margin-bottom: 3em;
+   padding:0em 2em;
+}
+
+.information_blocks>div>h2{
+    text-align: center; font-size: 2em;}
+.map{
+   width: 100%;
+}
+.times,.times>p,.visit_location,.visit_location>p
+{
+   text-align: center;line-height: 1em;
+}

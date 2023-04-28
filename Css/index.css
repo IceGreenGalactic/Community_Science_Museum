@@ -1,4 +1,4 @@
-.Image_links>div>img{
+.Image_links>div>a>img{
     width: 20em; 
     height: 20em;
     object-fit:cover;
@@ -9,7 +9,8 @@
         display: grid;
         grid-template-columns: auto auto auto auto;
     }
-    .Image_links>div>p{
+    .Image_links>div>a>p{
         background-image: url(/Images/background.jpg);
         font-size: 2em;
+        margin-right: 0.5em;
     }
