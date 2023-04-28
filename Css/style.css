@@ -42,7 +42,15 @@ header>nav>ul{
 }
 footer{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+
+}
+footer>div>h4{
+    font-style: italic; font-weight:100;
+}
+footer>div>h3{
+    font-weight: 900; margin-bottom: 0%;
 }
 footer>div{
     display: grid;
