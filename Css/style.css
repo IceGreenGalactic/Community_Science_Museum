@@ -2,7 +2,15 @@
     font-family: "Benne";
     src: url(/Fonts/Benne-Regular.ttf);
 }
-
+@font-face {
+    font-family: "SourceSansPro";
+    src: url(/Fonts/SourceSansPro-Regular.ttf);
+}
+h1,h2,h3{font-family: "Benne";}
+h4,h5,p{font-family: "SourceSansPro"}
+body{
+    margin:0
+}
 ul{
     list-style-type: none;
     color: black;
@@ -14,12 +22,12 @@ header{
     background-image: url(/Images/background.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 10%;
-    max-height: 10%;
+    max-height: 15em;
     background-position-y: center;
     display: grid;
     grid-template-columns: 1fr auto;
     margin-bottom: 2em;
+    border-bottom:solid rgb(244, 255, 165) 
 }
 header>nav>ul{
     display: grid; 
@@ -27,13 +35,18 @@ header>nav>ul{
     font-size: 2em;
     text-align: left;
     margin-right: 2em;
-    margin-top: 30%;
+
 }
 .LOGO {
- height: 50%; 
- margin-top: 10%;
+ max-height: 10em; 
 }
+#menu_checkbox,.hide_list{
+  background-color: yellow; 
+}
+#menu-checkbox:checked~.hide_list>div,.hide_list{ background-color: red;}  
+#menu-checkbox:checked~.hide_list{ background-color: blue;}  
 footer{
     background-image: url(/Images/footer.jpg);
     height: fit-content;
 }
+#menu-checkbox:checked~.hide_list{font-size: 5em;}

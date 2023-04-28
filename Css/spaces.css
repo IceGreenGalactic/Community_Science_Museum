@@ -1,0 +1,32 @@
+
+
+.spaces_main>div>h3{font-weight: 900; }
+.spaces_main>div>img{
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+    object-position: center;
+    margin-top: -2em;
+
+}
+.spaces_header2>h1 {text-align: center; position: absolute;
+    top: 40%; bottom:50%; right: 30%;left:30%;
+    font-size: 3em;
+ text-transform: uppercase;
+}
+.spaces_info{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.information_blocks{
+    border: solid 1em;
+     border-image: url(/Images/background.jpg) 20 round;
+    line-height: 5px;
+    margin-right: auto;
+    margin-top: 3em;
+    padding: 10%;
+}
+.spaces_infotext{ 
+    padding: 10em;
+    
+}
