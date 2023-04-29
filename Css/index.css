@@ -1,17 +1,24 @@
+.Image_links{
+    display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+}
 .Image_links>div>a>img{
-    width: 20em; 
-    height: 20em;
-    object-fit:cover;
-    object-position: top 
-    ; margin-left: 2em;}
+    width: 100%;
+    height: 80%;
+    max-width: 400px;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top
+;}
 
-    .Image_links{
-        display: grid;
-        grid-template-columns: auto auto auto auto;
+    .Image_link{
+       flex: 1 0 400px
+    
        
     }
     .Image_links>div>a>p{
         background-image: url(/Images/background.jpg);
         font-size: 2em;
-        margin-right: 0.5em;
+        gap: 20px;
     }

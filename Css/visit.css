@@ -1,17 +1,17 @@
 .visit_main>h1{
     text-align: center;
-    margin-top: -2em;
 }
 .information_blocks {
 display: grid;
 grid-template-columns: auto auto;
+gap: 2em;
 }
 .information_blocks>div{
 
     border: solid 1em;
      border-image: url(/Images/background.jpg) 20 round;
     line-height: 40px;
-    margin-right: 2em;
+    
    width: 80%;
    margin-bottom: 3em;
    padding:0em 2em;

@@ -2,19 +2,20 @@
 .exhibition_main{
     display: grid;
     grid-template-columns: auto auto auto;
+    gap: 2em;
+    text-align: center;
+    justify-content: space-around;
 }
 .exhibition_main>div>a>img{ 
    height: 30em;
     width: 30em;
     object-position: center;
     object-fit: cover;
-    margin-right: 1em;
+
 }
 .exhibition_main>div>p{
    font-size: 2em;
-text-align: center;
 background-image: url(/Images/background.jpg);
-margin-right: 1em;
 padding-bottom: 1em;
 margin-top: 0;
 padding-top: 1em;
