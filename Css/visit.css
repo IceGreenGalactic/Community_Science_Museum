@@ -1,20 +1,22 @@
 .visit_main>h1{
     text-align: center;
 }
-.information_blocks {
-display: grid;
-grid-template-columns: auto auto;
+.information_blocks,.information_blocks2 {
+display: flex;
+flex-wrap: wrap;
 gap: 2em;
+justify-content: center;
 }
-.information_blocks>div{
+.information_blocks>div,.information_blocks2>div{
 
     border: solid 1em;
      border-image: url(/Images/background.jpg) 20 round;
     line-height: 40px;
-    
-   width: 80%;
    margin-bottom: 3em;
    padding:0em 2em;
+   width: 400px;
+   max-width: 600px;
+   flex: 1 0 500px
 }
 
 .information_blocks>div>h2{

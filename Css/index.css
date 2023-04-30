@@ -9,11 +9,12 @@
     max-width: 400px;
     max-height: 300px;
     object-fit: cover;
-    object-position: top
+    object-position: top;
+    justify-content: center
 ;}
 
     .Image_link{
-       flex: 1 0 400px
+       flex: 1 0 300px
     
        
     }
@@ -21,4 +22,9 @@
         background-image: url(/Images/background.jpg);
         font-size: 2em;
         gap: 20px;
+    }
+
+    @media (min-width: 1500px) {
+        .Image_links>div{ background-color: red };
+        
     }

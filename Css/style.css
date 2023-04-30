@@ -24,20 +24,25 @@ header{
     background-repeat: no-repeat;
     max-height: 15em;
     background-position-y: center;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    margin-bottom: 2em;
-    border-bottom:solid rgb(244, 255, 165) 
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom:solid rgb(244, 255, 165);
+    justify-content: space-between;
+    
 }
+
 header>nav>ul{
-    display: grid; 
-    grid-template-columns: 4fr 4fr 5fr 3fr;
+    display: flex;
+    flex-wrap: wrap;
     font-size: 2em;
-    text-align: left;
-    margin-right: 2em;
+   gap: 30px;
+   margin-right: 50px;
+   
+   
 }
 .LOGO {
- max-height: 10em; 
+ max-height: 150px; 
+ display: flex;
 }
 footer{
     display: grid;
