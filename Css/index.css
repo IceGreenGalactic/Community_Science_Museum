@@ -10,13 +10,12 @@
     max-height: 300px;
     object-fit: cover;
     object-position: top;
-    justify-content: center
+    justify-content: center;
 ;}
 
     .Image_link{
        flex: 1 0 300px
-    
-       
+  
     }
     .Image_links>div>a>p{
         background-image: url(/Images/background.jpg);
@@ -24,7 +23,29 @@
         gap: 20px;
     }
 
-    @media (min-width: 1500px) {
-        .Image_links>div{ background-color: red };
+    @media (min-width: 1580px) {
+        
+        .Image_links>div>a>img{
+            width: 100%;
+            height: 80%;
+            min-width: 350px;
+            min-height: 300px;
+            object-fit: cover;
+            object-position: top;
+            justify-content: center
+        ;}
+        
+    }
+        @media (min-width: 1829px) {
+        
+        .Image_links>div>a>img{
+            width: 100%;
+            height: 80%;
+            min-width: 500px;
+            min-height: 300px;
+            object-fit: cover;
+            object-position: top;
+            justify-content: center
+        ;}
         
     }
