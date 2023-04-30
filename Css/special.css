@@ -1,0 +1,20 @@
+.event_main{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    
+
+}
+img{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+.event{
+    flex: 1 0 100%;
+}
+.event>p{ 
+    margin-top: -2em ;
+font-size: 1.5em;
+color: white;
+margin-right: 50px;}
