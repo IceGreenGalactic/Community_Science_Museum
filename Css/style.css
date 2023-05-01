@@ -26,15 +26,16 @@ header{
     background-position-y: 40%;
     display: flex;
     flex-wrap: wrap;
-    border-bottom:solid white;
     justify-content: space-between;
-    
 }
 header{
     display: flex;
     flex-direction: row
     ;gap: 20px;
 
+}
+.header_menu{ 
+    margin-top: 130px;
 }
 .header_menu>nav>ul{
     display: flex;
