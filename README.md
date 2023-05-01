@@ -181,3 +181,45 @@ Internships
 Are you interested in working in a museum? Do you enjoy the fun and excitement of sharing the wonders of nature with people? Well you could be just the right person to enjoy an internship at the museum. 
 
 You’ll be learning from a number of different academics and people who are passionate about science and sharing it with the wider community. 
+
+
+
+.hide_list {
+    display: flex;
+    flex-direction: column;
+}
+.hamburger_list{background-color: yellow}
+#menu_checkbox,.hide_list{display: ;
+}
+#menu-checkbox:checked~.hamburger_list{ background-color: red;}  
+#menu-checkbox:checked~.hide_list{ background-color: blue;}  
+footer{
+    background-image: url(/Images/footer.jpg);
+    height: fit-content;
+}
+
+
+@media (max-width: 1000px) {
+
+    header>nav{
+        font-size: 1.8em;
+       gap: 20px;
+       margin-right: 5px;
+    }
+    .LOGO {
+        max-height: 110px; 
+        display: flex;
+       }
+}
+
+
+@media (max-width: 820px) {
+    footer{display: none;}
+
+    .menu_top{
+    display:none    
+}
+}
+
+
+

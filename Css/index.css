@@ -1,7 +1,7 @@
 .Image_links{
     display: flex;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 30px;
 }
 .Image_links>div>a>img{
     width: 100%;
@@ -14,13 +14,20 @@
 ;}
 
     .Image_link{
-       flex: 1 0 300px
+       flex: 1 0 300px;
   
     }
     .Image_links>div>a>p{
         background-image: url(/Images/background.jpg);
+        background-position: 90% 20%;
+        background-repeat: no-repeat;
         font-size: 2em;
         gap: 20px;
+        padding-bottom: 1em;
+        margin-top: 0;
+        padding-top: 1em;
+        text-align: center;
+        
     }
 
     @media (min-width: 1580px) {
