@@ -1,9 +1,82 @@
+.hero>img,.starClub>a>img,.map{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    object-position: 0% 20%;
+
+}
+.hero>h1,.Visit>a>h2{
+    background-image: url(/Images/background.jpg);
+    background-position: 0% 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 2em;
+    font-weight: 600;
+    gap: 20px;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-align: center;
+    margin-top: -4px;
+}
+.starClub>a>h2{
+    background-image: url(/Images/background.jpg);
+    background-position: 0% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 2em;
+    font-weight: 600;
+    gap: 20px;
+    padding-bottom: 2em;
+    padding-top: 0.5em;
+    text-align: center;
+    margin-top: -4px;}
+    .starClub>a>h3{
+        text-align: center;
+        font-family: "SourceSansPro";
+        margin-top: -5em;
+        margin-bottom: 5em;
+        font-size: 1.3em;
+    }
+    
+.exhibition_main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.exhibition_main>div>a>img{ 
+   width: 100%;
+   height: 30em;
+    object-fit: cover;
+
+}
+.exhibition_space_lego>a>img,.exhibition_space_eco>a>img{
+   object-position: 0px 70%;
+    }
+.exhibition_space,.exhibition_space_lego,.exhibition_space_eco{
+flex: 1 0 500px;    
+}
+.exhibition_main>div>p{
+   font-size: 2.4em;
+   font-weight: 900;
+background-image: url(/Images/background.jpg);
+background-position: 90% 20%;
+background-repeat: no-repeat;
+background-size: cover;
+padding-bottom: 1em;
+margin-top: 0;
+padding-top: 1em;
+}
 .Image_links{
     display: flex;
         flex-wrap: wrap;
         gap: 30px;
         margin-left: 10px;
         margin-right: 10px;
+        
 }
 .Image_links>div>a>img{
     width: 100%;
@@ -13,6 +86,7 @@
     object-fit: cover;
     object-position: top;
     justify-content: center;
+    
 ;}
 
     .Image_link{
@@ -43,7 +117,7 @@
             min-height: 300px;
             object-fit: cover;
             object-position: top;
-            justify-content: center
+            justify-content: center;
         ;}
         .Image_links>div>a>p{
        
@@ -72,3 +146,83 @@
         }
         
     }
+    @media (min-width: 1580px) {
+            
+        .exhibition_main>div>a>img{ 
+            width: 100%;
+            height: 30em;
+             object-fit: cover;}
+             .exhibition_space,.exhibition_space_lego,.exhibition_space_eco{
+                flex: 1 0 600px;    
+                }
+              
+        
+    }
+        @media (min-width: 1829px) {
+        
+            .exhibition_main>div>a>img{ 
+                width: 100%;
+                height: 40em;
+                 object-fit: cover;}
+    
+                 .exhibition_space,.exhibition_space_lego,.exhibition_space_eco{
+                    flex: 1 0 600px;    
+                    }
+    }
+
+    @media(max-width: 650px) {
+        .Image_links>div>a>img{
+            width: 100%;
+            height: 70%;
+            max-width: 400px;
+            max-height: 300px;
+            
+        ;}
+        
+            .Image_link{
+               flex: 1 0 230px;
+          
+            }
+            .Image_links>div>a>p{
+                font-size: 1.5em;
+                gap: 10px;
+                padding-bottom: 0.5em;
+                padding-top: 0.5em;
+             
+            }
+    }
+    @media (max-width: 510px) {
+        .Image_links{}
+        .Image_links>div>a>img{
+            width: 100%;
+            height: 70%;
+            max-width: 600px;
+            max-height: 300px;
+            background-color: red;
+    }
+    .Image_links>div>a>p{
+        font-size: 1.5em;
+        gap: 10px;
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
+        max-width: 600px;
+}
+
+
+ .exhibition_space,.exhibition_space_lego,.exhibition_space_eco{
+ flex: 1 0 450px;    
+ }
+ .hero>img,.starClub>a>img,.map{
+    object-fit: cover;
+    width: fit-content;
+    height: 250px;
+    object-position: 0% 20%;
+ }
+ .hero,.Visit,.starClub {
+    width:fit-content;
+    font-size: 1em;
+ }
+.hero>h1,.Visit>a>h2{
+
+    font-size: 1.5em;
+}}

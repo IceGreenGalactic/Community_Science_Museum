@@ -9,7 +9,7 @@
 h1,h2,h3{font-family: "Benne";}
 h4,h5,p{font-family: "SourceSansPro"}
 body{
-    margin:0
+    margin:0;
 }
 ul{
     list-style-type: none;
@@ -22,7 +22,8 @@ header{
     background-image: url(/Images/background.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
-    max-height: 200px;
+    width: fit-content;
+    max-height: 150px;
     background-position-y: 40%;
     display: flex;
     flex-wrap: wrap;
@@ -35,11 +36,11 @@ header{
 
 }
 .header_menu{ 
-    margin-top: 130px;
+    margin-top: 80px;
 }
 .header_menu>nav>ul{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 40px;
     font-size: 2em;
 
@@ -71,3 +72,23 @@ footer>div{
 #menu-checkbox:checked~.hamburger_menu>ul>li{background-color: red;}
 
 #menu-checkbox:checked~.LIST>ul{background-color: blue;}
+
+
+
+@media(max-width: 650px){
+    .hide_list{display: none;}
+    .LOGO{max-width: 300px;}
+
+
+.header_menu{ 
+    margin-top: -10px;
+}
+.header_menu>nav>ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    font-size: 1em;
+
+}
+header{ position: fixed;}
+}

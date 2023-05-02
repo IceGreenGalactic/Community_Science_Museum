@@ -15,7 +15,7 @@ justify-content: center;
    margin-bottom: 3em;
    padding:0em 2em;
    width: 400px;
-   max-width: 600px;
+   max-width: 450px;
    flex: 1 0 500px
 }
 
@@ -30,3 +30,6 @@ justify-content: center;
 }
 
 
+@media screen {
+    
+}
