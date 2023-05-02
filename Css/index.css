@@ -212,17 +212,31 @@ padding-top: 1em;
  .exhibition_space,.exhibition_space_lego,.exhibition_space_eco{
  flex: 1 0 450px;    
  }
- .hero>img,.starClub>a>img,.map{
+ .hero>img,.starClub>a>img{
     object-fit: cover;
-    width: fit-content;
+   max-width: fit-content;
     height: 250px;
     object-position: 0% 20%;
  }
+ .map{
+    justify-content: center;
+ }
  .hero,.Visit,.starClub {
-    width:fit-content;
+    max-width:fit-content;
     font-size: 1em;
  }
 .hero>h1,.Visit>a>h2{
 
     font-size: 1.5em;
-}}
+}
+}
+@media (max-width: 410px) {
+    .hero>h1,.Visit>a>h2{
+
+        font-size: 0.8em;
+    }
+    .exhibition_space,.exhibition_space_lego,.exhibition_space_eco{
+        flex: 1 0 250px;   
+}
+.hero>img{ margin-top: 150px;}
+}
