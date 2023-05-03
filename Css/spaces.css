@@ -18,14 +18,19 @@
    width: 100%;
    height: 20em;
     object-fit: cover;
-
 }
+ .exhibition_space,.exhibition_space_lego,.exhibition_space_eco{
+                flex: 1 0 600px;    
+                }
+
+
 .exhibition_space_lego>a>img,.exhibition_space_eco>a>img{
    object-position: 0px 70%;
+   min-width: 100%;
+   height: 20em;
+    object-fit: cover;
+   
     }
-.exhibition_space,.exhibition_space_lego,.exhibition_space_eco{
- 
-}
 .exhibition_main>div>p{
    font-size: 2em;
    font-weight: 900;
@@ -61,7 +66,7 @@ padding-top: 1em;
 }
 .spaces_header2>h1 {
     text-align: center; 
-    margin-top: -5%;
+    margin-top: 5%;
     margin-bottom: 3%;
     font-size: 3em;
  text-transform: uppercase;
@@ -114,7 +119,7 @@ grid-template-columns: auto auto auto auto;
         height: 30em;
          object-fit: cover;}
          .exhibition_space,.exhibition_space_lego,.exhibition_space_eco{
-            flex: 1 0 600px;    
+            flex: 1 0 700px;    
             }
           
     
@@ -127,6 +132,6 @@ grid-template-columns: auto auto auto auto;
              object-fit: cover;}
 
              .exhibition_space,.exhibition_space_lego,.exhibition_space_eco{
-                flex: 1 0 600px;    
+                flex: 1 0 900px;    
                 }
 }

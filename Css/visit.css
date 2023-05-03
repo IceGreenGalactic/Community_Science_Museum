@@ -30,6 +30,21 @@ justify-content: center;
 }
 
 
-@media screen {
+@media (min-width:1580px) {
     
+.information_blocks>div>h2,.information_blocks2>div>h2{
+    text-align: center; font-size: 3em;}
+
+.times,.times>p,.visit_location,.visit_location>p
+{
+   font-size: 1.2em;
+}
+.information_blocks2>div>p{
+    font-size: 1.5em;
+}
+.information_blocks2>div>h3{
+    font-size: 2em;
+}
+.information_blocks,.information_blocks2 {
+    gap:9em;}
 }
