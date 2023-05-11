@@ -45,7 +45,7 @@ padding-top: 1em;
 .spaces_main>div>h3{font-weight: 900; }
 .spaces_main>div>img{
     width: 100%;
-    height: 20em;
+    height: 500px;
     object-fit: cover;
     object-position: center;
     display: flex;
@@ -53,14 +53,14 @@ padding-top: 1em;
 }
 .spaces_evelution_main>div>img,.spaces_robotics_main>div>img{
     width: 100%;
-    height: 20em;
+    height: 500px;
     object-fit: cover;
     object-position: 10% 90%;
 } 
 
 .spaces_ecology_main>div>img{
     width: 100%;
-    height: 20em;
+    height: 500px;
     object-fit: cover;
     object-position: 30% 70%;
 }
@@ -75,7 +75,9 @@ padding-top: 1em;
 
 .spaces_info{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr auto;
+    gap: 100px;
+    text-align: center;
 }
 .information_blocks{
     flex-wrap: wrap;
@@ -91,24 +93,30 @@ padding-top: 1em;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 500px;
     background-color: red;
+    padding: 30px;
+    
     
 }
+.spaces_infotext>p{
+    width: 1000px;
+    text-align: left;
+}
 .spaces_images{
-display: grid;
-grid-template-columns: auto auto auto auto;
+display: flex;
  justify-content: space-around;
  align-items: center;
- gap:20px;   
+ gap:10px;   
+ background-color: orange;
+ flex-wrap: wrap;
 }
 .spaces_images>img{
-    display: flex;
-    flex-wrap: wrap;
-    height: 200px;
-    max-width: 200px;
+    height: 300px;
+    max-width: 300px;
     object-fit: cover;
- flex: 1 0 100px; 
+    flex-wrap: wrap;
+    flex: 1 0 10px;
+  
     
 }
 
@@ -134,4 +142,10 @@ grid-template-columns: auto auto auto auto;
              .exhibition_space,.exhibition_space_lego,.exhibition_space_eco{
                 flex: 1 0 900px;    
                 }
+                
+}
+
+@media (max-width: 510px) {
+
+
 }

@@ -223,3 +223,14 @@ footer{
 
 
 
+      <div class="Image_link">
+                <a href="#">
+                <img src="Images/StarClub1.jpg" alt="four children in a science room, one looking into microscope one playing with scelleton">
+                <p>Young Stars Club</p></a>
+            </div>
+
+             <div class="Image_link">
+                <a href="exhibition_Spaces.html">
+                <img src="Images/Spaces.jpg" alt="Image of a lady in a labcoat looking in to a futuristic maskine">
+                <p>Exhibition spaces</p></a>
+            </div>
