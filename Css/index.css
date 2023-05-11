@@ -36,6 +36,7 @@
         margin-top: -5em;
         margin-bottom: 5em;
         font-size: 1.3em;
+        padding: 1em;
     }
     
 .exhibition_main{
@@ -122,9 +123,7 @@ padding-top: 1em;
         .Image_links>div>a>h2{
        
             width: 100%;
-            min-width: 350px;}
-            
-        
+            min-width: 350px;}   
     }
         @media (min-width: 1829px) {
         
@@ -153,10 +152,9 @@ padding-top: 1em;
             height: 30em;
              object-fit: cover;}
              .exhibition_space,.exhibition_space_lego,.exhibition_space_eco{
-                flex: 1 0 600px;    
+             flex: 1 0 600px;    
                 }
-              
-        
+       
     }
         @media (min-width: 1829px) {
         
@@ -170,6 +168,14 @@ padding-top: 1em;
                     }
     }
 
+    @media(max-width: 770px) {
+    
+        .hero>h1,.Visit>a>h2{
+        
+            font-size: 1.5em;
+        }
+    }
+
     @media(max-width: 650px) {
         .Image_links>div>a>img{
             width: 100%;
@@ -177,66 +183,86 @@ padding-top: 1em;
             max-width: 400px;
             max-height: 300px;
             
-        ;}
+        ;}.starClub>a>h2{
+            padding-bottom: 3em;}
+            .starClub>a>h3{
+                margin-top: -6em;
+            }
+            .hero>h1,.Visit>a>h2,.starClub>a>h3{
+                font-size: 1.5em;}
         
             .Image_link{
                flex: 1 0 230px;
           
             }
             .Image_links>div>a>h2{
-                font-size: 1.5em;
+                font-size: 1.2em;
                 gap: 10px;
                 padding-bottom: 0.5em;
                 padding-top: 0.5em;
              
             }
     }
-    @media (max-width: 510px) {
-        .Image_links{}
+    @media (max-width: 511px) {
+     
         .Image_links>div>a>img{
             width: 100%;
             height: 70%;
             max-width: 600px;
             max-height: 300px;
-            background-color: red;
     }
     .Image_links>div>a>h2{
-        font-size: 1.5em;
+        font-size: 1em;
         gap: 10px;
         padding-bottom: 0.5em;
         padding-top: 0.5em;
         max-width: 600px;
 }
-
+.Image_link{
+    flex: 1 0 150px;
+}
 
  .exhibition_space,.exhibition_space_lego,.exhibition_space_eco{
  flex: 1 0 450px;    
  }
  .hero>img,.starClub>a>img{
     object-fit: cover;
-   max-width: fit-content;
+   max-width: 100%;
     height: 250px;
     object-position: 0% 20%;
  }
+ 
  .map{
     justify-content: center;
  }
  .hero,.Visit,.starClub {
-    max-width:fit-content;
-    font-size: 1em;
+    width: 100%;
  }
-.hero>h1,.Visit>a>h2{
-
-    font-size: 1.5em;
+.hero>h1,.Visit>a>h2,.starClub>a>h3{
+    font-size: 1em;
 }
+.starClub>a>h2{
+    padding-bottom: 3em;}
+    .starClub>a>h3{
+
+        margin-top: -8em;
+        margin-bottom: 6em;
+    }
 }
 @media (max-width: 410px) {
     .hero>h1,.Visit>a>h2{
 
         font-size: 0.8em;
+        
     }
     .exhibition_space,.exhibition_space_lego,.exhibition_space_eco{
         flex: 1 0 250px;   
 }
 .hero>img{ margin-top: 150px;}
+.starClub>a>h2{
+    padding-bottom: 3em;}
+    .starClub>a>h3{
+
+        margin-top: -8em;
+    }
 }
