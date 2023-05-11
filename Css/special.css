@@ -3,6 +3,7 @@ img{
     max-height: 400px;
     object-fit: cover;
 }
+
 .event{
     flex: 1 0 100%;
 }
@@ -19,3 +20,38 @@ text-align: right;}
     text-align: center;
     font-size: 1.7em;
     text-transform: uppercase;}
+
+    @media(max-width: 810px){
+        .Event_headline{
+            font-size: 1.3em;}
+    }
+    @media(max-width: 650px){
+
+
+        .event>p{ 
+            margin-top: -2em ;
+            margin-bottom: 1em;
+        font-size: 1em;
+        color: white;
+        margin-right: 50px;
+        font-weight: 500;
+        text-align: right;}
+        .Event_headline{
+            font-size: 1em;
+        padding-top: 150px;}
+    }
+
+
+    @media (max-width: 420px) {
+        .event>p{ 
+            margin-top: -3em ;
+            margin-bottom: 2em;
+        font-size: 0.8em;
+        color: white;
+        margin-left: 5px;
+        font-weight: 500;
+        text-align: left;}
+        .Event_headline{
+            font-size: 0.5em;}
+    }
+        
