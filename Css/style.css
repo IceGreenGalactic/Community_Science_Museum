@@ -97,17 +97,42 @@ footer{
 
 .header_menu{ 
     display: none;
-}
-
-header{ 
-    position: fixed;
-width:100%}
-
-#menu_checkbox,.menu_hamburger,.hide_list {
-    display: block;
+    background-image: url(/Images/background.jpg);
+    width: fit-content;
+    padding: 1em;
 }
 .menu_hamburger{ 
-    font-size: 2em;
+    font-size: 1.5em;
+    
+}
+.menu_hamburger,.header_menu{
+margin-right: 60%;
+}
+header{ 
+    position: fixed;
+width:100%;
+justify-content: start;
+align-items: center;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: column;
+
+}  
+
+.menu_hamburger,.hide_list {
+    display: block;
+    
+}
+
+
+#menu_checkbox:checked~.header_menu{
+    display: block;
+}
+
+.header>nav>ul{
+    display: block;
+    font-size: 1.2em;
+    line-height: 1.8em;
 }
 
 }
