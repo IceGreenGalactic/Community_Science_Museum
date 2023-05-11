@@ -66,59 +66,57 @@ padding-top: 1em;
 }
 .spaces_header2>h1 {
     text-align: center; 
-    margin-top: 5%;
-    margin-bottom: 3%;
+    margin-top: -15%;
+    margin-bottom: 10%;
     font-size: 3em;
  text-transform: uppercase;
 }
 
 
 .spaces_info{
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
     text-align: center;
+    justify-content: space-evenly;
+
 }
 .information_blocks{
-    flex-wrap: wrap;
-    flex-direction: column;
+
     border: solid 1em;
      border-image: url(/Images/background.jpg) 20 round;
     line-height: 10px;
-    margin-right: auto;
+    margin-right: 2%;
     margin-top: 3em;
     padding: 3em;
+    height: 400px;
+    min-width: 170px;
 }
 .spaces_infotext{ 
-    display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    background-color: red;
     padding: 30px;
-    
-    
+    justify-content: space-around;
+    align-items: center;
 }
 .spaces_infotext>p{
-    width: 1000px;
-    text-align: left;
-}
-.spaces_images{
-display: flex;
- justify-content: space-around;
- align-items: center;
- gap:10px;   
- background-color: orange;
- flex-wrap: wrap;
-}
-.spaces_images>img{
-    height: 300px;
-    max-width: 300px;
-    object-fit: cover;
     flex-wrap: wrap;
-    flex: 1 0 10px;
-  
-    
+    text-align: left;
+    max-width: 900px;
+    font-size: 1.5em;
+
 }
+.spaces_infotext>h3{
+    font-size: 3em;
+}
+
+.spaces_images>img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    flex-wrap: wrap;  
+}
+
 
 @media (min-width: 1580px) {
         
@@ -142,10 +140,113 @@ display: flex;
              .exhibition_space,.exhibition_space_lego,.exhibition_space_eco{
                 flex: 1 0 900px;    
                 }
+                .spaces_images>img{
+                    height: 250px;
+                    width: 250px;
+                    object-fit: cover;
+                    flex-wrap: wrap;  
+                }
+                
                 
 }
 
-@media (max-width: 510px) {
+@media (max-width: 1206px){
+    .spaces_infotext{ 
+        flex-wrap: wrap;
+        padding: 30px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .spaces_infotext>p{
+        flex-wrap: wrap;
+        text-align: left;
+        max-width: 900px;
+        font-size: 1.3em;
+    
+    }
+    .spaces_infotext>h3{
+        font-size: 1.6em;
+    }
+  
+    .spaces_main>div>img,.spaces_evelution_main>div>img,.spaces_robotics_main>div>img,.spaces_ecology_main>div>img{
+        width: 100%;
+        height: 400px;
+    }   
+    .spaces_header2>h1 {
+        text-align: center; 
+        margin-top: -20%;
+        margin-bottom: 19%;
+        font-size: 2.8em;
+     text-transform: uppercase;
+    }
+    .spaces_images>img{
+        height: 170px;
+        width: 170px;
+        object-fit: cover;
+        flex-wrap: wrap;  
+    }
+}
+@media (max-width: 1083px){
+    .spaces_images>img{
+        height: 140px;
+        width: 140px; }
 
+        .information_blocks{
+            font-size: 0.9em;
+            padding: 1.2em;
+            min-width: 140px;
+        }
+}
+@media (max-width: 650px) {
+ 
 
+    .spaces_info{
+        flex-wrap: wrap;
+        gap: 10px;
+    
+    }
+    .spaces_images>img{
+        height: 150px;
+        width: 150px; }
+
+        .information_blocks{
+            font-size: 1.2em;
+            padding: 3em;
+            min-width: 140px;
+        }
+         
+    .spaces_infotext>p{
+        font-size: 1em;
+    
+    }
+    .spaces_infotext>h3{
+        font-size: 1.3em;
+    }
+  
+    .spaces_main>div>img,.spaces_evelution_main>div>img,.spaces_robotics_main>div>img,.spaces_ecology_main>div>img{
+        width: 100%;
+        height: 400px;
+    }   
+    .spaces_header2>h1 {
+        text-align: center; 
+        margin-top: -20%;
+        margin-bottom: 10%;
+        font-size: 2.8em;
+     text-transform: uppercase;
+    }
+    .spaces_images>img{
+        height: 170px;
+        width: 170px;
+        object-fit: cover;
+        flex-wrap: wrap;  
+    }
+}
+@media (max-width: 470px){
+    .spaces_header2>h1 {
+        text-align: center; 
+        margin-top: -40%;
+        margin-bottom: 10%;
+        font-size: 2.8em;
+     text-transform: uppercase;
+    }
 }
