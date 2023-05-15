@@ -6,15 +6,17 @@ img{
 
 .event{
     flex: 1 0 100%;
+    
 }
 .event>p{ 
-    margin-top: -2em ;
+    margin-top: -1.5em ;
     margin-bottom: 1em;
-font-size: 1.5em;
+font-size: 2.5em;
 color: white;
 margin-right: 50px;
 font-weight: 500;
-text-align: right;}
+text-align: center;
+}
 
 .Event_headline{
     text-align: center;
@@ -30,11 +32,8 @@ text-align: right;}
 
         .event>p{ 
             margin-top: -2.5em ;
-            margin-bottom: 1em;
-        font-size: 1.6em;
-        color: white;
-        margin-right: 50px;
-        font-weight: 500;
+        font-size: 2em;
+    
         text-align: left;}
         .Event_headline{
             font-size: 1em;
