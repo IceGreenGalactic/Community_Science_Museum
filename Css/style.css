@@ -101,8 +101,14 @@ footer>div{
 @media(max-width: 650px){
     .hide_list{display: none;}
     .LOGO{max-width: 300px;}
-footer{
+footer>div>h4,footer>div>p,footer>div>a{
     display: none;
+}
+footer>div>h3{
+font-size: 1em;
+padding-bottom: 30px;
+padding-top: 20px;
+    
 }
 
 .header_menu{ 

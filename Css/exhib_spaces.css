@@ -1,4 +1,4 @@
-.exhibition_headline{
+.exhibition_headline, .exhibition_headline2{
     text-align: center;
     font-size: 1.7em;
     text-transform: uppercase;
@@ -60,16 +60,23 @@ margin-top: 0;
 @media (max-width: 650px) {
  .exhibition_headline{   
     padding-top: 150px;
-    font-size: 1em;
+    font-size: 0.9em;
 }
+.exhibition_headline2{font-size: 0.9em;}
 .exhibition_space,.exhibition_space_lego,.exhibition_space_eco{
 flex: 1 0 450px;    
 }
-}
+.exhibition_main>div>a>img{ 
+    height: 30em;
+}}
 @media (max-width: 410px) {
 
 .exhibition_space,.exhibition_space_lego,.exhibition_space_eco{
     flex: 1 0 250px;   
 }
+.exhibition_headline, .exhibition_headline2{
+
+    font-size: 0.7em;
+}  
 
 }
