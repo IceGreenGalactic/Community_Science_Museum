@@ -44,7 +44,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         text-align: center;
-        line-height: 0.5;
+        line-height: 1em;
         padding-top: 1em;
     }
     .visit>a>h2{
