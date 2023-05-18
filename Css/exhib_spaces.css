@@ -81,3 +81,11 @@ flex: 1 0 350px;
 }  
 
 }
+@media (max-width: 350px) {
+    .exhibition_main>div>h2{
+        font-size: 1.8em;
+        font-weight: 900;
+        line-height: 1;
+     }
+     
+}
