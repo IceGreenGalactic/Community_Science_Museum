@@ -6,6 +6,9 @@
     margin-top: 2%;
 
 }
+.hero>img{
+    margin-top: 0%;
+}
 .hero>h1{
     background-image: url(/Images/background.jpg);
     background-position: 0% 80%;
@@ -114,8 +117,13 @@
         
             font-size: 1.5em;
         }
+        .hero>img,.starClub>a>img,.map{
+          
+            height: 400px;
+      
+        
     }
-
+    }
     @media(max-width: 650px) {
         .Image_links>div>a>img{
             width: 100%;
@@ -126,10 +134,9 @@
         ;}.starClub>a>h2{
             padding-bottom: 3em;}
             .starClub>a>h3{
-                margin-top: -6em;
+                margin-top: -8em;
+                font-size: 1em
             }
-            .hero>h1,.Visit>a>h2,.starClub>a>h3{
-                font-size: 1.5em;}
         
             .Image_link{
                flex: 1 0 230px;
@@ -145,7 +152,7 @@
             .hero>img{
                 margin-top: 130px;
             }
-    }
+        
     @media (max-width: 511px) {
      
         .Image_links>div>a>img{

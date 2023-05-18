@@ -26,6 +26,9 @@
     height: 500px;
     object-fit: cover;
     object-position: 50% 80% 50%;}
+
+ 
+
 .spaces_header2>h1 {
     text-align: center; 
     margin-top: -15%;
@@ -100,7 +103,7 @@
     }
   
     .spaces_main>div>img,.spaces_evelution_main>div>img,.spaces_robotics_main>div>img,.spaces_ecology_main>div>img{
-        width: 100%;
+        max-width: 100%;
         height: 400px;
     }   
     .spaces_header2>h1 {
