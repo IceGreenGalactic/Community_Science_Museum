@@ -120,6 +120,11 @@ footer>div{
 footer>div>h4,footer>div>p,footer>div>a{
     display: none;
 }
+.header>nav>ul{
+ 
+    gap: 35px;
+    padding-right: 40px;
+}
 footer>div>h3{
 font-size: 1em;
 padding-bottom: 30px;
@@ -132,7 +137,7 @@ font-size: 0.5em;
     display: none;
     background-image: url(/Images/background.jpg);
     width: fit-content;
-    padding: 1em;
+    margin-left: 0.5em;
 }
 .menu_hamburger{ 
     font-size: 1.5em;
@@ -143,7 +148,6 @@ margin-right: 60%;
 }
 .header_menu{
     margin-right: 40%;
-    padding: 10px;
 }
 header{ 
     position: fixed;
@@ -173,4 +177,10 @@ flex-direction: column;
     flex-wrap: nowrap;
 }
 
+}
+@media(max-width: 350px){
+    .header>nav>ul{
+   padding: 10px;
+   font-size: 1em;
+    }
 }
