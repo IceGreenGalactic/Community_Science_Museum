@@ -81,7 +81,9 @@
     object-fit: cover;
     flex-wrap: wrap;  
 }
-
+.spaces_images{
+    max-width: 700px;
+}
 
 
 @media (max-width: 1206px){
