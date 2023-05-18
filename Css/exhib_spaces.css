@@ -62,7 +62,8 @@ margin-top: 0;
     padding-top: 150px;
     font-size: 0.9em;
 }
-.exhibition_headline2{font-size: 0.9em;}
+.exhibition_headline2{
+    margin-top: 50px;font-size: 0.9em;}
 .exhibition_space,.exhibition_space_lego,.exhibition_space_eco{
 flex: 1 0 350px;    
 }
