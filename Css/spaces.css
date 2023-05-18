@@ -48,14 +48,16 @@
 
 }
 .information_blocks{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: solid 1em;
      border-image: url(/Images/background.jpg) 20 round;
     line-height: 10px;
     margin-right: 2%;
     margin-top: 3em;
     padding: 3em;
-    height: 400px;
+    height: 500px;
     min-width: 170px;
 }
 .spaces_infotext{ 
@@ -142,6 +144,7 @@
             font-size: 1.2em;
             padding: 3em;
             min-width: 140px;
+            margin-top: 0em;
         }
          
     .spaces_infotext>p{
@@ -177,7 +180,11 @@
         max-width: 300px;
         align-items: center;
     }
+    .information_blocks{
+        font-size: 1em;
+        max-height: 350px;
 
+    }
     
 }
 @media (max-width: 350px ){
@@ -186,5 +193,8 @@
         margin-bottom: 20%;
         font-size: 2em;
     }
+    .information_blocks{
+        font-size: 0.8em;
+       max-height: 300px;
+    }
 }
-
