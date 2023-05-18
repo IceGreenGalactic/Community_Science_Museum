@@ -48,7 +48,9 @@ text-align: center;
     @media (max-width: 420px) {
         .event>p{ 
         font-size: 1em;
-        text-align: left;}
+        text-align: left;
+    margin-top: -5px;
+padding-bottom: 10px;}
         .Event_headline{
             font-size: 0.7em;}
     }
