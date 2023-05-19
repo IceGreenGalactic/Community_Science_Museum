@@ -57,7 +57,7 @@
 }
 .spaces_header2>h1 {
     text-align: center; 
-    margin-top: -15%;
+    margin-top: -10%;
     margin-bottom: 10%;
     font-size: 3em;
  text-transform: uppercase;
@@ -65,6 +65,13 @@
 .Headline{
 color: rgb(247, 214, 0);
 border: solid black 1px;
+}
+.Headline2{
+    color:green;
+}
+
+.Headline3{
+    color:darkcyan;
 }
 
 .spaces_info{
