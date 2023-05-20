@@ -65,9 +65,8 @@
         
 }
 .Image_links>div>a>img{
-    width: 300px;
-    height: 300px;
-    max-width: 350px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
     object-position: top;
     justify-content: center;
@@ -75,7 +74,7 @@
 ;}
 
     .Image_link{
-       flex: 1 0 300px;
+       flex: 1 0 200px;
        display: flex;
        justify-content: center;
   
@@ -91,27 +90,57 @@
         padding-top: 1em;
         text-align: center;
         margin-top: -4px;
-        margin-bottom: 15%;
-        width: 300px;
-        
+        margin-bottom: 15%;      
     }
 
-    @media (min-width: 1580px) {
-        
+    @media(max-width: 1715px){
         .Image_links>div>a>img{
-            width: 600px;
-            height: 80%;
-            min-width: 550px;
-            min-height: 500px;
-            object-fit: cover;
-            object-position: top;
-            justify-content: center;
+            width: 365px;
+            height: 365px;
         ;}
+        .Image_links{
+                gap: 10px;
+                margin-left: 5px;
+                margin-right: 5px;
+    }
+
+}
+@media(max-width: 1500px){
+    .Image_links>div>a>img{
+        width: 300px;
+        height: 300px;
+}
+}
+@media(max-width: 1240px){
+    .Image_links>div>a>img{
+        width: 250px;
+        height: 250px;}
         .Image_links>div>a>h2{
-       
-            width: 100%;
-            min-width: 350px;}   
-    }   
+            font-size: 1.5em;
+            font-weight: 600;
+            gap: 10px;
+            padding-bottom: 1em;
+            padding-top: 1em;    
+        }
+  
+}
+@media(max-width: 1040px){
+    .Image_links>div>a>img{
+        width: 200px;
+        height: 200px;}
+  
+}
+@media(max-width: 840px){
+    .Image_links>div>a>img{
+        width: 300px;
+        height: 300px;}
+    .Image_link{
+        flex: 1 0 230px;
+   
+     }
+  
+}
+
 
     @media(max-width: 770px) {
     
@@ -164,9 +193,7 @@
     @media (max-width: 511px) {
      
         .Image_links>div>a>img{
-            width: 100%;
-            height: 70%;
-            max-width: 600px;
+            width: 200px;
             height: 200px;
     }
     .Image_links>div>a>h2{
@@ -206,6 +233,9 @@
     }
 }
 @media (max-width: 410px) {
+    .Image_links>div>a>img{
+        width: 170px;
+        height: 200px;}
     .hero>h1,.Visit>a>h2{
 
         font-size: 0.8em;
@@ -222,3 +252,12 @@
         margin-top: -8em;
     }
 }
+@media (max-width: 350px) {
+    .Image_links>div>a>img{
+        width: 150px;
+        height: 180px;}}
+
+        @media (max-width: 300px) {
+            .Image_links>div>a>img{
+                width: 220px;
+                height: 220px;}}
