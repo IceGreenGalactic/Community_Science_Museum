@@ -65,10 +65,9 @@
         
 }
 .Image_links>div>a>img{
-    width: 100%;
-    height: 80%;
-    max-width: 400px;
-    max-height: 300px;
+    width: 300px;
+    height: 300px;
+    max-width: 350px;
     object-fit: cover;
     object-position: top;
     justify-content: center;
@@ -77,6 +76,8 @@
 
     .Image_link{
        flex: 1 0 300px;
+       display: flex;
+       justify-content: center;
   
     }
     .Image_links>div>a>h2{
@@ -85,23 +86,23 @@
         background-repeat: no-repeat;
         font-size: 2em;
         font-weight: 600;
-        gap: 20px;
+        gap: 10px;
         padding-bottom: 1em;
         padding-top: 1em;
         text-align: center;
         margin-top: -4px;
-        margin-bottom: 5px;
-        max-width: 400px;
+        margin-bottom: 15%;
+        width: 300px;
         
     }
 
     @media (min-width: 1580px) {
         
         .Image_links>div>a>img{
-            width: 100%;
+            width: 600px;
             height: 80%;
-            min-width: 350px;
-            min-height: 300px;
+            min-width: 550px;
+            min-height: 500px;
             object-fit: cover;
             object-position: top;
             justify-content: center;
@@ -129,7 +130,7 @@
         .Image_links>div>a>img{
             width: 100%;
             height: 70%;
-            max-width: 400px;
+            max-width: 250px;
             height: 300px;
             
         ;}.starClub>a>h2{
@@ -143,11 +144,17 @@
                flex: 1 0 230px;
           
             }
+            .Image_links{
+                margin-left: 1px;
+                margin-right: 1px;
+                gap:5px
+            }
             .Image_links>div>a>h2{
                 font-size: 1.2em;
-                gap: 10px;
+                gap: 1px;
                 padding-bottom: 0.5em;
                 padding-top: 0.5em;
+                max-width: 250px;
              
             }
             .hero>img{

@@ -41,7 +41,9 @@ margin-top: 0;
             
     .exhibition_main>div>a>img{ 
     
-         object-fit: cover;}
+         object-fit: cover;
+         min-width: 800px;
+        }
          .exhibition_space,.exhibition_space_lego,.exhibition_space_eco{
          flex: 1 0 600px;    
             }
