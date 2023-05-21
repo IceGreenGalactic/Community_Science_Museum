@@ -214,7 +214,24 @@ border: solid black 1px;
             min-width: 140px;
             margin-top: 0em;
         }
-         
+        .spaces_headerFAQ>h1{
+            font-size: 2.5em;
+        }
+        .spaces_infotext_faq{
+            line-height: 1.2em;
+        }
+        .spaces_infotext_faq>h2{
+            font-size:  1.6em;
+            line-height: 1em;
+        }
+        .spaces_infotext_faq>h3{
+            font-size: 1em;
+        }
+        .spaces_infotext_faq>h4{
+            font-size: 0.8em;
+           text-decoration: wavy;
+           margin-bottom: 2em;
+        }       
     .spaces_infotext>p{
         font-size: 1em;
     
