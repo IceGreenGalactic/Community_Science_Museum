@@ -52,7 +52,7 @@
     text-align: center; 
     margin-top: -35%;
     margin-bottom: 0%;
-    font-size: 3em;
+    font-size: 5em;
  text-transform: uppercase;
 }
 .spaces_header2>h1 {
@@ -101,6 +101,25 @@ border: solid black 1px;
     padding: 30px;
     justify-content: space-around;
     align-items: center;
+}
+.spaces_infotext_faq{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 1.8em;
+    max-width: 50%;
+}
+.spaces_infotext_faq>h2{
+    font-size:  2.2em;
+    text-align: center;
+}
+.spaces_infotext_faq>h3{
+    font-size: 1.5em;
+}
+.spaces_infotext_faq>h4{
+    font-size: 1.3em;
+   text-decoration: wavy;
+   margin-bottom: 4em;
 }
 .spaces_infotext>p,.spaces_infotext>ul>li{
     flex-wrap: wrap;
