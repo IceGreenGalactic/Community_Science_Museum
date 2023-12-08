@@ -20,7 +20,6 @@ an informative, appealing website to attract middle school pupils and their pare
 ## Built With
 - HTML
 - CSS
-- JS
 
 
 ## Getting Started
