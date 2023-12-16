@@ -53,6 +53,7 @@ npm open index with "open with live server" or Alt+L Alt+O
 
 ## Contact
 
+[My LinkedIn page](https://www.linkedin.com/in/kristine-tyrholm-7902172a4)
 
 
 
